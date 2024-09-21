@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina del equipo</title>
+</head>
+<body>
+<style>
+    img{
+        border: 5px rgb(19, 18, 18) solid;
+        border-radius: 30%;
+        width: 300px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    p{
+        color: rgb(16, 16, 16);
+        margin: auto;
+        border: 5px solid rgb(5, 5, 144);
+        }
+    header, section, footer {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    nav {
+        text-align: center;
+        margin-top: 20px;
+        }
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #007bff;
+        }
+        
+</style>
+<section class="team-section">
+    <h2>Integrantes del Equipo.</h2>
+    <div class="team-member">
+        <h3>Ximena Torres</h3>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\ximena.jpg" alt="Torres Longoria Ximena">
+        <p>Matrícula: 2011987</p>
+        <p>Para concluir con ese trabajo, pusimos en práctica los temas vistos en clase que fue el programa html con css y los programas de django, y para ello realizamos esta página web en la que explicamos porque es el programa y cómo puedes descargarlo y habilitarlo para el uso que desee el usuario.</p>
+        
+    </div>
+    <div class="team-member">
+        <h3>Fernando Luna</h3>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\Fernando.jpg" alt="Manuel Fernando Luna López">
+        <p>Matrícula: 1812266</p>
+        <p>La realización de un PIA sobre HTML, CSS y Django demuestra la importancia de estas tecnologías en el desarrollo web. HTML y CSS son fundamentales para estructurar y diseñar páginas, mientras que Django permite crear aplicaciones dinámicas y seguras. Este proyecto no solo proporciona experiencia práctica en el desarrollo de aplicaciones completas, sino que también mejora habilidades de resolución de problemas y fomenta la colaboración en equipo. </p>
+    </div>
+    <div class="team-member">
+        <h3>Enrique Alvarado</h3>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\ENRIQUE.jpg" alt="Enrique Alvarado Martínez">
+        <p>Matrícula: 1952332</p>
+        <p>En este trabajo vimos todo lo relacionado con html, css entre otras cosas que llevamos acabo para poder correr y realizar con éxito nuestra pagina y que corriera lo suficientemente bien, con los detalles que agregamos sobre una página sobre los datos del equipo involucrado a hasta un tutorial mediante un video de YouTube y varias citas donde nos apoyan un poco más sobre el tema, aprendí un poco de todo y me llevo de experiencia el gran trabajo que se realizó y la funcionalidad sobre el proyecto final para esta clase.</p>
+        
+    </div>
+    <div class="team-member">
+        <h3> Mauricio González </h3>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\maury.jpg" alt="Mauricio Miguel González Martínez">
+        <p>Matrícula:1685841 </p>
+        <p>En conclusión este trabajo ayudo en reforzar nuestros conocimientos en la materia que llevamos asesoría estás semanas para poder crear páginas y conocer algunas sistemas para la creación de estás y poder trabajar en equipo con mis compañeros , fue de mucha ayuda para poder reforzar conocimientos aprendidos y la teoría en otros sistemas que se ocupaban reforzar para el examen.</p>
+    </div>
+</section>
+
+</footer>
+    <nav>
+        <a href="index.html">Página Principal</a>
+        <a href="Pgicrud.html">Página CRUD</a>
+        <a href="PaginaConta.html">Pagina de contacto</a>
+        <a href="Pagrecursos.html">Pagina de recursos</a>
+        <a href="PagNosotros.html">Pagina de nosotros</a>
+    </nav>
+</footer>
+
+</body>
+</html>
