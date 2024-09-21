@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        header, section, footer {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        form{
+    color: rgb(16, 6, 157);
+    margin: auto;
+}
+    </style>
+    <form action="">
+        
+        <label for="name">Nombre</label>
+        <input type="text"name="name"id="name">
+        <label for="name">Apellidos</label>
+        <input type="text"name="name"id="name">
+        <div>
+            <p>¿Cual es tu tipo de mesaje?</p>
+            <input type="checkbox"id="queja"name="queja[]" value="queja">
+            <label for="queja">queja</label>
+            <input type="checkbox"id="sugerencia"name="sugerencia[]" value="sugerencia">
+            <label for="sugerencia">sugerencia</label>
+            <input type="checkbox"id="Felicitacion"name="Felicitacion[]" value="Felicitacion">
+            <label for="Felicitacion">Felicitacion</label>
+        </div>
+        <div>
+            <p>Genero con que te identificas</p>
+            <input type="checkbox"id="femenino"name="femenino"value="femenino">
+            <label for="femenino">femenino</label>
+            <input type="checkbox"id="Masculino"name="Masculino"value="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="checkbox"id="otro"name="otro"value="otro">
+            <label for="otro">otro</label>
+        </div>
+        <div>
+            <label for="mesaje">Escriba su mensaje...</label><br>
+            <textarea name="mesaje" id="mensaje" cols="30" rows="10" required></textarea>
+        <div>
+        <div>
+            <form action="#" method="post">
+                <label for="email">Ingrese su correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </form>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <label for="telefono">Ingrese su número de teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{10}">
+            </form>
+        </div>
+        
+            <div>
+                <input type="checkbox" id="acepto" name="acepto" required>
+                <label for="acepto">Acepto el <a href="#" target="_blank">aviso de privacidad</a></label>
+            </div>
+            
+            <div class="aviso">
+                Al enviar este formulario, aceptas que tus datos serán tratados conforme a nuestro aviso de privacidad.
+            </div>
+        </div>
+        <input type="submit"value="Enviar">
+        </div>
+    </form>
+    <footer>
+        <nav>
+            <a href="index.html">Página Principal</a>
+            <a href="Pgicrud.html">Página CRUD</a>
+            <a href="PaginaConta.html">Pagina de contacto</a>
+            <a href="Pagrecursos.html">Pagina de recursos</a>
+            <a href="PagNosotros.html">Pagina de nosotros</a>
+        </nav>
+    </footer>
+</body>
+</html>
