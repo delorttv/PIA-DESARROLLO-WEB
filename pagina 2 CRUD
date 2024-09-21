@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD en Django</title>
+    <style>
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin: auto;
+        }
+        header, section, footer {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            color: rgb(8, 8, 109);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        img{
+            width: auto;
+            height: auto;
+            border: 5px rgb(8, 8, 109) solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Como crear un CRUD en django</h1>
+    </header>
+    <section class="list-section">
+        <h2>Prerequisitos para llevar acabo el CRUD </h2>
+        <h3>Prerequisitos</h3>
+        <ul>
+            <li>Tener Pyhton(Version 3.6 o superior).</li>
+            <li>Tener Django(Version 3.x o superior).</li>
+        </ul>
+        <h1>Paso1</h1>
+        <h2>Crear un nuevo proyecto Django.</h2>
+        <elemento>Abre tu terminal y ejecuta el sigueinte comando:</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso1.jpg" alt="paso1">
+        <elemento>Despues, navega al directorio del proyecto. con el codigo "cd mi_proyecto"</elemento>
+        <h1>Paso2</h1>
+        <h2>Crear una nueva aplicacion.</h2>
+        <elemento>Crea una nueva aplicacion dentro del proyecto: </elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso2.jpg" alt="paso2">
+        <elemento>Agrega "mi_app" a la lista de aplicaciones instaladas en settings.py </elemento>
+        <h1>Paso3</h1>
+        <h2>Crear el modelo.</h2>
+        <elemento>Define un modelo en models.py de tu aplicación. Por ejemplo, un modelo para gestionar libros:</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso3.jpg" alt="paso3">
+        <h1>Paso4</h1>
+        <h2>Migrar el modelo a la base de datos.</h2>
+        <elemento>Ejecuta los siguientes comandos para crear las tablas en la base de datos:</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso4.jpg" alt="Paso4">
+        <h1>Paso5</h1>
+        <h2>Crear las vistas.</h2>
+        <elemento>Define las vistas en views.py para manejar las operaciones CRUD:</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\pagina5.1.jpg" alt="Paso5">
+        <img src="C:\Users\ximen\Downloads\Imgenespia\pagina5.2.jpg" alt="Paso5">
+        <h1>Paso6</h1>
+        <h2>Configurar las URLs.</h2>
+        <elemento>Configura las URLs en urls.py de tu aplicacion:</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso6.jpg" alt="Paso6">
+        <elemento>Luego, Incluye estas URLs en el urls.py.</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso6.2.jpg" alt="Paso6">
+        <h1>Paso7</h1>
+        <h2>Crear las platillas.</h2>
+        <elemento>Crea una carpeta llamada templates dentro de mi_app y añade las siguientes plantillas: "listar_libros.html"</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso7.jpg" alt="Paso7">
+        <elemento>crear_libro.html</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso7.2.jpg" alt="Paso7">
+        <elemento>editar_libro.html</elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso7.3.jpg" alt="Paso7">
+        <h1>Paso8</h1>
+        <h2>Ejecuta el servidor.</h2>
+        <elemento>Finalmente ejecuta el servidor de desarollo. </elemento>
+        <img src="C:\Users\ximen\Downloads\Imgenespia\paso8.jpg" alt="Paso8">
+        <h4>Conclusión </h3>
+            <p>Has creado un CRUD básico utilizando Django. Desde aquí, puedes seguir ampliando la funcionalidad, mejorando el diseño y aplicando estilos según tus necesidades.</p>
+</footer>
+<nav>
+    <a href="index.html">Página Principal</a>
+    <a href="Pgicrud.html">Página CRUD</a>
+    <a href="PaginaConta.html">Pagina de contacto</a>
+    <a href="Pagrecursos.html">Pagina de recursos</a>
+    <a href="PagNosotros.html">Pagina de nosotros</a>
+</nav>
+</footer>
+</body>
+</html>
